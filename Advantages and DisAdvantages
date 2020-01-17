@@ -1,0 +1,70 @@
+
+
+Advantages of Encapsulation 
+
+	// main To test the  real class
+
+	To launch/start your Java application //
+
+	Protects an object from unwanted access 
+		
+	Encapsulation also helps us to make a flexible code which is easy to change and maintain.
+
+	Encapsulation is also useful in hiding the data(instance variables) of a class from an illegal direct access.
+
+
+DisAdvantages  of Encapsulation
+	
+	If proper encapsulation is not followed in a code, it leads to its bad designing.
+
+Advantages of Inheritance
+
+	We can avoid duplicate Code
+
+		-- Put common code in one place, and let the subclasses inherit that code from a superclass . When you want to change thatbehavior, you have to modify it in only one place, and  
+
+ 	everybody else (i.e, all the subclasses) we can  see the change.
+
+	We can  get to take advantage of polymorphism.
+
+
+	You define a common protocol for a group of  classes.
+
+Disadvantages of Inheritance
+
+	Over Composition - Tightly coupled relationship between classes.
+
+	This means that if we change code of parent class, it will affect to all the child classes which is inheriting/deriving the parent class, and hence, it cannot be independent of each other.
+
+
+Over Interfaces for runtime polymorphism - Heavy weight compared to interface
+
+Advantages of Polymorphism
+
+Method overloading allows methods that perform similar or closely related functions to be accessed through a common name
+
+
+Method overloading can be implemented on constructors allowing different ways to initialize objects of a class.
+
+
+DisAdvantages of Polymorphsim
+
+Polymorphism reduces the readability of the program. One needs to identify the runtime behavior of the program to identify actual execution time.
+
+Advantages of Abstract Methods 
+
+	They can have/define variables in them like a normal class
+
+	They can do everything a normal class can
+
+	They can extend classes
+
+	
+	You can’t have multiple inheritance with abstract classes
+
+DisAdvantages of Abstract Methods 
+
+The more Abstract ,the slower things are . The visibility is rarely provided. 
+
+
+
